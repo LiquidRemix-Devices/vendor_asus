@@ -454,7 +454,10 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc \
     vendor/asus/X00T/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
     vendor/asus/X00T/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
+    vendor/asus/X00T/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
     vendor/asus/X00T/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
+    vendor/asus/X00T/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
+    vendor/asus/X00T/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
     vendor/asus/X00T/proprietary/vendor/etc/permissions/vendor.qti.hardware.factory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor.qti.hardware.factory.xml \
     vendor/asus/X00T/proprietary/vendor/etc/qdcm_calib_data_nt36672_1080p_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt36672_1080p_video_mode_dsi_panel.xml \
     vendor/asus/X00T/proprietary/vendor/etc/qdcm_calib_data_nt36672_1080p_video_mode_dsi_txd_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt36672_1080p_video_mode_dsi_txd_panel.xml \
@@ -486,12 +489,15 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/vendor/firmware/cppf.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b06 \
     vendor/asus/X00T/proprietary/vendor/firmware/cppf.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b07 \
     vendor/asus/X00T/proprietary/vendor/firmware/cppf.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.mdt \
+    vendor/asus/X00T/proprietary/vendor/firmware/dbmd4_va_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dbmd4_va_fw.bin \
     vendor/asus/X00T/proprietary/vendor/lib/libpn553_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn553_fw.so \
     vendor/asus/X00T/proprietary/vendor/firmware/mono.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/mono.cnt \
     vendor/asus/X00T/proprietary/vendor/firmware/novatek_ts_fw_dj.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw_dj.bin \
     vendor/asus/X00T/proprietary/vendor/firmware/novatek_ts_fw_txd.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw_txd.bin \
     vendor/asus/X00T/proprietary/vendor/firmware/startup_fw_update.img:$(TARGET_COPY_OUT_VENDOR)/firmware/startup_fw_update.img \
+    vendor/asus/X00T/proprietary/vendor/firmware/tas2557_uCDSP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tas2557_uCDSP.bin \
     vendor/asus/X00T/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
+    vendor/asus/X00T/proprietary/vendor/firmware/voice_amodel.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/voice_amodel.bin \
     vendor/asus/X00T/proprietary/vendor/firmware/widevine.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b00 \
     vendor/asus/X00T/proprietary/vendor/firmware/widevine.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b01 \
     vendor/asus/X00T/proprietary/vendor/firmware/widevine.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b02 \
@@ -591,7 +597,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/vendor/lib/lib_remote_simlock.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_remote_simlock.so \
     vendor/asus/X00T/proprietary/vendor/lib/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdb-fts.so \
     vendor/asus/X00T/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
-    vendor/asus/X00T/proprietary/vendor/lib/libacdbmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbmapper.so \
     vendor/asus/X00T/proprietary/vendor/lib/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbrtac.so \
     vendor/asus/X00T/proprietary/vendor/lib/libactuator_ad5816g.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ad5816g.so \
     vendor/asus/X00T/proprietary/vendor/lib/libactuator_ad5823.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ad5823.so \
@@ -1066,7 +1071,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/vendor/lib/libevent_observer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libevent_observer.so \
     vendor/asus/X00T/proprietary/vendor/lib/libfastcvadsp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvadsp_stub.so \
     vendor/asus/X00T/proprietary/vendor/lib/libfastcvopt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvopt.so \
-    vendor/asus/X00T/proprietary/vendor/lib/libfeedbackhandler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeedbackhandler.so \
     vendor/asus/X00T/proprietary/vendor/lib/libflash_pmic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_pmic.so \
     vendor/asus/X00T/proprietary/vendor/lib/libflp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflp.so \
     vendor/asus/X00T/proprietary/vendor/lib/libgcs-calwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs-calwrapper.so \
@@ -1263,7 +1267,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/vendor/lib/liboptizoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboptizoom.so \
     vendor/asus/X00T/proprietary/vendor/lib/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpdmapper.so \
     vendor/asus/X00T/proprietary/vendor/lib/libpdnotifier.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpdnotifier.so \
-    vendor/asus/X00T/proprietary/vendor/lib/libperfgluelayer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfgluelayer.so \
     vendor/asus/X00T/proprietary/vendor/lib/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperipheral_client.so \
     vendor/asus/X00T/proprietary/vendor/lib/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcci_legacy.so \
     vendor/asus/X00T/proprietary/vendor/lib/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcmaputils.so \
@@ -1284,12 +1287,10 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
     vendor/asus/X00T/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc_pipe.so \
     vendor/asus/X00T/proprietary/vendor/lib/libqseed3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqseed3.so \
-    vendor/asus/X00T/proprietary/vendor/lib/libqti-gt-prop.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-gt-prop.so \
     vendor/asus/X00T/proprietary/vendor/lib/libqti-iopd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-iopd-client.so \
     vendor/asus/X00T/proprietary/vendor/lib/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd-client.so \
     vendor/asus/X00T/proprietary/vendor/lib/libqti-perfd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd.so \
     vendor/asus/X00T/proprietary/vendor/lib/libqti-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-util.so \
-    vendor/asus/X00T/proprietary/vendor/lib/libqti-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-utils.so \
     vendor/asus/X00T/proprietary/vendor/lib/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtigef.so \
     vendor/asus/X00T/proprietary/vendor/lib/libquipc_os_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libquipc_os_api.so \
     vendor/asus/X00T/proprietary/vendor/lib/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_daemon.so \
@@ -1391,7 +1392,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/vendor/lib/soundfx/libqcbassboost.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcbassboost.so \
     vendor/asus/X00T/proprietary/vendor/lib/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcreverb.so \
     vendor/asus/X00T/proprietary/vendor/lib/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcvirt.so \
-    vendor/asus/X00T/proprietary/vendor/lib/soundfx/libshoebox.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libshoebox.so \
     vendor/asus/X00T/proprietary/vendor/lib/vendor.display.color@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.0_vendor.so \
     vendor/asus/X00T/proprietary/vendor/lib/vendor.display.postproc@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.postproc@1.0_vendor.so \
     vendor/asus/X00T/proprietary/vendor/lib/vendor.qti.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@1.0.so \
@@ -1405,7 +1405,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/vendor/lib/vendor.qti.hardware.iop@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.iop@1.0_vendor.so \
     vendor/asus/X00T/proprietary/vendor/lib/vendor.qti.hardware.iop@2.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.iop@2.0_vendor.so \
     vendor/asus/X00T/proprietary/vendor/lib/vendor.qti.hardware.limits@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.limits@1.0_vendor.so \
-    vendor/asus/X00T/proprietary/vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.perf@1.0_vendor.so \
+    vendor/asus/X00T/proprietary/vendor/lib/vendor.qti.hardware.perf@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.perf@1.0.so \
     vendor/asus/X00T/proprietary/vendor/lib/vendor.qti.hardware.qdutils_disp@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qdutils_disp@1.0_vendor.so \
     vendor/asus/X00T/proprietary/vendor/lib/vendor.qti.hardware.qteeconnector@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qteeconnector@1.0_vendor.so \
     vendor/asus/X00T/proprietary/vendor/lib/vendor.qti.hardware.radio.am@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.am@1.0_vendor.so \
@@ -1514,7 +1514,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/vendor/lib64/lib_remote_simlock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_remote_simlock.so \
     vendor/asus/X00T/proprietary/vendor/lib64/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdb-fts.so \
     vendor/asus/X00T/proprietary/vendor/lib64/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdbloader.so \
-    vendor/asus/X00T/proprietary/vendor/lib64/libacdbmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdbmapper.so \
     vendor/asus/X00T/proprietary/vendor/lib64/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdbrtac.so \
     vendor/asus/X00T/proprietary/vendor/lib64/libadiertac.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadiertac.so \
     vendor/asus/X00T/proprietary/vendor/lib64/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadreno_utils.so \
@@ -1532,7 +1531,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/vendor/lib64/libc2d30-a5xx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30-a5xx.so \
     vendor/asus/X00T/proprietary/vendor/lib64/libc2dcolorconvert.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2dcolorconvert.so \
     vendor/asus/X00T/proprietary/vendor/lib64/libcalmodule_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcalmodule_common.so \
-    vendor/asus/X00T/proprietary/vendor/lib64/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdsprpc.so \
     vendor/asus/X00T/proprietary/vendor/lib64/libchromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libchromaflash.so \
     vendor/asus/X00T/proprietary/vendor/lib64/libcne.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcne.so \
     vendor/asus/X00T/proprietary/vendor/lib64/libcneapiclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcneapiclient.so \
@@ -1552,7 +1550,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/vendor/lib64/libevent_observer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libevent_observer.so \
     vendor/asus/X00T/proprietary/vendor/lib64/libfastcvadsp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfastcvadsp_stub.so \
     vendor/asus/X00T/proprietary/vendor/lib64/libfastcvopt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfastcvopt.so \
-    vendor/asus/X00T/proprietary/vendor/lib64/libfeedbackhandler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeedbackhandler.so \
     vendor/asus/X00T/proprietary/vendor/lib64/libflp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libflp.so \
     vendor/asus/X00T/proprietary/vendor/lib64/libgcs-calwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgcs-calwrapper.so \
     vendor/asus/X00T/proprietary/vendor/lib64/libgcs-ipc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgcs-ipc.so \
@@ -1629,12 +1626,10 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/vendor/lib64/libqmi_encdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_encdec.so \
     vendor/asus/X00T/proprietary/vendor/lib64/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmiservices.so \
     vendor/asus/X00T/proprietary/vendor/lib64/libqseed3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqseed3.so \
-    vendor/asus/X00T/proprietary/vendor/lib64/libqti-gt-prop.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-gt-prop.so \
     vendor/asus/X00T/proprietary/vendor/lib64/libqti-iopd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-iopd-client.so \
     vendor/asus/X00T/proprietary/vendor/lib64/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-perfd-client.so \
     vendor/asus/X00T/proprietary/vendor/lib64/libqti-perfd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-perfd.so \
     vendor/asus/X00T/proprietary/vendor/lib64/libqti-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-util.so \
-    vendor/asus/X00T/proprietary/vendor/lib64/libqti-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-utils.so \
     vendor/asus/X00T/proprietary/vendor/lib64/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtigef.so \
     vendor/asus/X00T/proprietary/vendor/lib64/libquipc_os_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libquipc_os_api.so \
     vendor/asus/X00T/proprietary/vendor/lib64/libril-qc-hal-qmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-hal-qmi.so \
@@ -1712,9 +1707,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
     vendor/asus/X00T/proprietary/vendor/lib64/soundfx/libasphere.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libasphere.so \
     vendor/asus/X00T/proprietary/vendor/lib64/soundfx/libqcbassboost.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcbassboost.so \
-    vendor/asus/X00T/proprietary/vendor/lib64/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcreverb.so \
     vendor/asus/X00T/proprietary/vendor/lib64/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcvirt.so \
-    vendor/asus/X00T/proprietary/vendor/lib64/soundfx/libshoebox.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libshoebox.so \
     vendor/asus/X00T/proprietary/vendor/lib64/vendor.display.color@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.0_vendor.so \
     vendor/asus/X00T/proprietary/vendor/lib64/vendor.display.postproc@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.postproc@1.0_vendor.so \
     vendor/asus/X00T/proprietary/vendor/lib64/vendor.qti.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@1.0.so \
@@ -1728,7 +1721,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/vendor/lib64/vendor.qti.hardware.iop@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.iop@1.0_vendor.so \
     vendor/asus/X00T/proprietary/vendor/lib64/vendor.qti.hardware.iop@2.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.iop@2.0_vendor.so \
     vendor/asus/X00T/proprietary/vendor/lib64/vendor.qti.hardware.limits@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.limits@1.0_vendor.so \
-    vendor/asus/X00T/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.perf@1.0_vendor.so \
+    vendor/asus/X00T/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.perf@1.0.so \
     vendor/asus/X00T/proprietary/vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qdutils_disp@1.0_vendor.so \
     vendor/asus/X00T/proprietary/vendor/lib64/vendor.qti.hardware.qteeconnector@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qteeconnector@1.0_vendor.so \
     vendor/asus/X00T/proprietary/vendor/lib64/vendor.qti.hardware.radio.am@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.am@1.0_vendor.so \
